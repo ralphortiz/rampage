@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgHeroPlayed"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_omniknight" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
+
+            <TextView
+                android:id="@+id/tvHeroMatches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/sfprosemibold"
+                android:maxLines="1"
+                android:text="3"
+                android:textAlignment="textStart"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/viewMatchesStatic"
+                android:layout_width="85dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/tvHeroMatches"
+                android:background="@color/text_secondary" />
+
+            <View
+                android:id="@+id/viewHeroMatchesBar"
+                android:layout_width="85dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/tvHeroMatches"
+                android:background="@color/red" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
+
+            <TextView
+                android:id="@+id/tvHeroWinRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/sfprosemibold"
+                android:maxLines="1"
+                android:text="56.78%"
+                android:textAlignment="textStart"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/viewWinRateStatic"
+                android:layout_width="85dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/tvHeroWinRate"
+                android:background="@color/text_secondary" />
+
+            <View
+                android:id="@+id/viewHeroWinRateBar"
+                android:layout_width="85dp"
+                android:layout_height="3dp"
+                android:layout_below="@id/tvHeroWinRate"
+                android:background="@color/green" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvWinLose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:fontFamily="@font/sfprosemibold"
+            android:gravity="center"
+            android:text="365 / 120"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

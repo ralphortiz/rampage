@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TangoGG</string>
+
+    <string name="user_name">%1$s</string>
+    <string name="user_steam_id">Steam ID: %1$d</string>
+
+    <string name="match_id">Match ID: %1$d</string>
+    <string name="match_game_type">%1$s • %2$s</string>
+    <string name="match_dire_score">%1$d</string>
+    <string name="match_radiant_score">%1$d</string>
+    <string name="match_ended">Match Ended: %1$s</string>
+    <string name="match_duration">%1$1d:%2$02d:%3$02d</string>
+    <string name="match_duration_zero_hours">%1$02d:%2$02d</string>
+    <string name="match_hero_damage">Hero Dmg: %1$,d</string>
+    <string name="match_last_hits">Last hits: %1$d</string>
+    <string name="match_denies">Denies: %1$d</string>
+    <string name="match_observer_purchased">%1$dx</string>
+    <string name="match_sentry_purchased">%1$dx</string>
+    <string name="match_observer_purchased_if_none">0x</string>
+    <string name="match_sentry_purchased_if_none">0x</string>
+    <string name="match_gpm">GPM: %1$d</string>
+    <string name="match_xpm">XPM: %1$d</string>
+    <string name="match_net_worth">Net Worth: %1$,d</string>
+    <string name="match_kda">%1$d / %2$d / %3$d</string>
+    <string name="match_player_name">%1$s</string>
+    <string name="no_player_name">Anonymous</string>
+    <string name="match_hero_level">%1$d</string>
+
+    <string name="hero_stats_games">%1$d</string>
+    <string name="hero_stats_win_per">%1$.2f%%</string>
+    <string name="hero_stats_win_lose">%1$d / %2$d</string>
+
+    <plurals name="minute">
+        <item quantity="one">A minute ago</item>
+        <item quantity="other">%1$d minutes ago</item>
+    </plurals>
+
+    <plurals name="hour">
+        <item quantity="one">An hour ago</item>
+        <item quantity="other">%1$d hours ago</item>
+    </plurals>
+
+    <plurals name="day">
+        <item quantity="one">A day ago</item>
+        <item quantity="other">%1d days ago</item>
+    </plurals>
+
+    <plurals name="month">
+        <item quantity="one">A month ago</item>
+        <item quantity="other">%1$d months ago</item>
+    </plurals>
+
+    <plurals name="year">
+        <item quantity="one">A year ago</item>
+        <item quantity="other">%1$d years ago</item>
+    </plurals>
+</resources>
