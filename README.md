@@ -1,5 +1,5 @@
-# Rampage GG - a Dota 2 Data Tracker (WIP 🛠️)
-Rampage.GG is an Android app that display your latest Dota 2 matches.
+# Rampage GG - Dota 2 Matches Tracker (WIP 🛠️)
+Rampage.GG is an Android app that displayS your latest Dota 2 matches.
 
 Data is collected through the [OpenDota's API](https://docs.opendota.com).
 
