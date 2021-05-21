@@ -1,4 +1,4 @@
-# Rampage - Dota 2 Matches Tracker (WIP 🛠️)
+# Rampage - Dota 2 Matches Tracker
 Rampage is an Android app that displays your latest Dota 2 matches.
 
 Data is collected through the [OpenDota's API](https://docs.opendota.com).
